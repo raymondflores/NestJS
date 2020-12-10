@@ -1,4 +1,4 @@
-import { Field, ID, ObjectType } from '@nestjs/graphql'
+import { Directive, Field, ID, ObjectType } from '@nestjs/graphql'
 import { StudentType } from 'src/student/student.type'
 
 @ObjectType('Lesson')
